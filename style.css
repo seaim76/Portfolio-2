@@ -1,13 +1,14 @@
 body{
     font-family: 'Edu NSW ACT Foundation', cursive;
-
-    
-
+margin: 0;
    
 }
 
 h1{
    font-size: 80px;
+}
+p{
+    color: dimgray;
 }
 
 .name-highlight{
@@ -20,14 +21,70 @@ h1{
     padding-left: 1%;
 }
 .half img{
-    width: 100%;
+    width:60%;
+
 }
-
-
-
 
 .first-btn{
     background-color: indianred;
     border-radius: 50px;
     font-size: 15px;
 }
+.top-bg{
+    background-image:url("image/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 500px;
+}
+.link-button{
+    background-image: linear-gradient(rgb(112, 195, 228),rgb(6, 180, 233));
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+
+}
+.link-button:hover{
+    background-image: linear-gradient(rgb(88, 231, 131),rgb(14, 236, 88));
+}
+.dream-area{
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.Edit{
+    padding: 5px;
+    margin-left: 30px;
+}
+.singel{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 60%;
+
+}
+.experience-area{
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#bro{
+   border-left: 2px solid black; 
+}
+#line{
+    border-left: 10px solid black; 
+ }
+ #line2{
+   border-left: 7px solid;
+   border-image: linear-gradient(180deg,blue,cyan);
+   border-image-slice: 1;
+
+ }
+ footer{
+   text-align: center;
+ }
+
